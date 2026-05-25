@@ -10,6 +10,7 @@ import PdfPng from "./pages/PdfPng";
 import PdfDocx from "./pages/PdfDocx";
 import ImageWebp from "./pages/ImageWbp";
 import ImageJpg from "./pages/ImageJpg";
+import ImageWatermark from "./pages/ImageWatermark";
 import RemoveBg from "./pages/RemoveBg";
 import RotateFlip from "./pages/RotateFlip";
 import ImageCompress from "./pages/ImageCompress";
@@ -40,6 +41,7 @@ function App() {
           
           <Route path="/image-to-webp" element={<ImageWebp />} />
           <Route path="/image-to-jpg" element={<ImageJpg />} />
+          <Route path="/image-watermark" element={<ImageWatermark />} />
           <Route path="/image-to-svg" element={<ImageToSVG />} />
           <Route path="/image-to-grayscale" element={<ImageGrayScale />} />
           <Route path="/remove-bg" element={<RemoveBg />} />
