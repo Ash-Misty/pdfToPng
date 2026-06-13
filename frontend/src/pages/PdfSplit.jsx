@@ -231,6 +231,7 @@ export default function PdfSplit() {
   const isPageInRange = (pageNum) => {
     const sp = parseInt(startPage, 10);
     const ep = parseInt(endPage, 10);
+
     return pageNum >= sp && pageNum <= ep;
   };
 
